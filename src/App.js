@@ -230,9 +230,9 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            For centuries Australians from all walks of life have reported encounters and sightings of the YOWIE - their own version of the BigFoot, Sasquatch or the Yetti - from 
+            indigenous ancestors, with stories passed through wall paintings and through folklore, to the european settlers the Yowie has been well documented. However, following years
+            of pandemic resulting in less people out and about in their bushy habitat, the Yowie are venturing out. This is just the start... this is YOWAGEDDON.
           </s.TextDescription>
           <s.SpacerSmall />
           </s.Container>
@@ -269,7 +269,7 @@ function App() {
                   margin: "5px",
                 }}
               >
-                The Road Ahead
+                ROADMAP
               </StyledButton>
               <StyledButton
                 style={{
@@ -334,7 +334,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT Your Wallet
+                      CONNECT
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
