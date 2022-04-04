@@ -279,7 +279,7 @@ function App() {
                   window.open(CONFIG.MARKETPLACE_LINK, "_blank");
                 }}
               >
-                {CONFIG.MARKETPLACE}
+                Opensea
               </StyledButton>
             </span>
             <s.SpacerSmall />
