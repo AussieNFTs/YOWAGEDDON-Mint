@@ -269,7 +269,7 @@ function App() {
                   margin: "5px",
                 }}
               >
-                ROADMAP
+                Roadmap
               </StyledButton>
               <StyledButton
                 style={{
@@ -334,7 +334,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      Connect
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
