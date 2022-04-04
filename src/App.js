@@ -222,6 +222,20 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+          <s.SpacerMedium />
+        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            Please make sure you are connected to the right network (
+            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+            Once you make the purchase, you cannot undo this action.
+          </s.TextDescription>
+          <s.SpacerSmall />
+          </s.Container>
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -255,7 +269,7 @@ function App() {
                   margin: "5px",
                 }}
               >
-                Roadmap
+                The Road Ahead
               </StyledButton>
               <StyledButton
                 style={{
@@ -320,7 +334,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      CONNECT Your Wallet
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
